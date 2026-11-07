@@ -180,6 +180,9 @@ kramdown:
       start_line: 1
 
 collections:
+  recipes:
+    output: true
+    permalink: /recipes/:title/
   tabs:
     output: true
     sort_by: order
