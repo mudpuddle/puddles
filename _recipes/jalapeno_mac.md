@@ -1,18 +1,24 @@
 ---
+title: Bacon, Cheddar & Jalapeno Mac ’n Cheese
+linkname: jalapeno_mac
+tags: [comfort]
 ---
 Ingredients
 
 * * *
 
-6     tbsp          butter
-4     slices        bread (crusts removed)
-10   strips        bacon
-2                      jalapeños (seeded and cut into pieces)
-4     tbsp          flour
-4     cups         milk
-2     cups         irish white cheddar (shredded)
-2½  cups         sharp cheddar (shredded)
-1     lbs            pasta (cooked 2 mins less)
+|     |        |                                |
+| --- | ------ | ------------------------------ |
+| 6   | tbsp   | butter                         |
+| 4   | slices | bread (crusts removed)         |
+| 10  | strips | bacon                          |
+| 2   |        | jalapenos                      |
+| 4   | tbsp   | flour                          |
+| 4   | cups   | milk                           |
+| 2   | cups   | irish white cheddar (shredded) |
+| 2½  | cups   | sharp cheddar (shredded)       |
+| 1   | lbs    | pasta (cooked 2 mins less)     |
+
 
 Cooking Instructions
 

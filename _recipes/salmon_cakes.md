@@ -1,21 +1,24 @@
 ---
+title: Salmon Cakes
+linkname: salmon_cakes
+tags: [seafood]
 ---
 Ingredients
 
 * * *
 
-|     |     |     |
-| --- | --- | --- |
-| 1   | med | Salmon Fillet |
-| 1   | cup | Panko |
-| 2   | tbsp | fresh parsley |
-| 2   | tbsp | mayonnaise |
-| 4   | tsp | lemon juice |
-| 1   | small | shallot |
-| 1   | tsp | dijon mustard |
-| 1   | clove | garlic |
-| ¾   | tsp | salt |
-| ¼   | tsp | pepper |
+|     |       |                |
+| --- | ----- | -------------- |
+| 1   | med   | Salmon Fillet  |
+| 1   | cup   | Panko          |
+| 2   | tbsp  | fresh parsley  |
+| 2   | tbsp  | mayonnaise     |
+| 4   | tsp   | lemon juice    |
+| 1   | small | shallot        |
+| 1   | tsp   | dijon mustard  |
+| 1   | clove | garlic         |
+| ¾   | tsp   | salt           |
+| ¼   | tsp   | pepper         |
 |     | pinch | cayenne pepper |
 
 Cooking Instructions

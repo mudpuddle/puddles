@@ -1,18 +1,22 @@
 ---
+title: Biscuits
+linkname: biscuits
+tags: [breakfast]
 ---
+
 Ingredients
 
 * * *
 
-|     |     |     |
-| --- | --- | --- |
-| 2   | cups | flour |
-| 4   | tsp | baking powder |
-| 2   | tbsp | sugar |
-| ½   | tsp | salt |
-| ½   | tsp | cream of tartar |
-| ½   | cup | butter |
-| ¾   | cup | milk |
+|     |      |                 |
+| --- | ---- | --------------- |
+| 2   | cups | flour           |
+| 4   | tsp  | baking powder   |
+| 2   | tbsp | sugar           |
+| ½   | tsp  | salt            |
+| ½   | tsp  | cream of tartar |
+| ½   | cup  | butter          |
+| ¾   | cup  | milk            |
 
 Cooking Instructions
 

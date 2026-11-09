@@ -1,21 +1,24 @@
 ---
+title: Monster Cookies
+linkname: monster_cookies
+tags: [snacks, comfort]
 ---
 Ingredients
 
 * * *
 
-|     |     |     |
-| --- | --- | --- |
-| 1   | cup | sugar |
-| 1   | cup | packed brown sugar |
-| ½   | cup | butter |
-| 3   |     | large eggs |
-| 1½  | cups | peanut butter |
-| 1   | tbsp | vanilla |
-| 2   | tsp | baking soda |
-| ½   | tsp | salt |
+|     |      |                      |
+| --- | ---- | -------------------- |
+| 1   | cup  | sugar                |
+| 1   | cup  | packed brown sugar   |
+| ½   | cup  | butter               |
+| 3   |      | large eggs           |
+| 1½  | cups | peanut butter        |
+| 1   | tbsp | vanilla              |
+| 2   | tsp  | baking soda          |
+| ½   | tsp  | salt                 |
 | 4½  | cups | oats (old fashioned) |
-| 1   | bag | M&Ms (or mi ni M&Ms) |
+| 1   | bag  | M&Ms (or mi ni M&Ms) |
 
 Cooking Instructions
 

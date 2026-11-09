@@ -1,16 +1,19 @@
 ---
+title: Sausage Gravy
+linkname: sausage_gravy
+tags: [breakfast]
 ---
 Ingredients
 
 * * *
 
-|     |     |     |
-| --- | --- | --- |
-| ½   | lbs | pork sausage |
-| ¼   | cup | flour |
-| 2   | cups | milk |
-| ¼   | tsp | salt (to taste) |
-| ¼   | tsp | black pepper (to taste) |
+|     |      |                         |
+| --- | ---- | ----------------------- |
+| ½   | lbs  | pork sausage            |
+| ¼   | cup  | flour                   |
+| 2   | cups | milk                    |
+| ¼   | tsp  | salt (to taste)         |
+| ¼   | tsp  | black pepper (to taste) |
 
 Cooking Instructions
 
