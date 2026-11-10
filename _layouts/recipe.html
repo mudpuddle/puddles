@@ -1,0 +1,103 @@
+---
+layout: default
+---
+
+{% include lang.html %}
+
+{% assign recipes_tab = site.tabs | where: 'title', 'Recipes' | first %}
+
+<article class="px-1 recipe">
+  <header class="recipe-header">
+    <div class="d-flex justify-content-between align-items-center gap-3">
+      <h1 data-toc-skip>{{ page.title }}</h1>
+
+      <button
+        type="button"
+        class="btn btn-outline-secondary btn-sm recipe-print-btn d-print-none flex-shrink-0"
+        onclick="window.print()"
+        aria-label="Print this recipe"
+      >
+        <i class="fas fa-print fa-fw"></i>
+        <span class="ps-1">Print</span>
+      </button>
+    </div>
+
+    {% if page.description %}
+      <p class="post-desc fw-light mb-3">{{ page.description }}</p>
+    {% endif %}
+
+    {% if page.image %}
+      {% capture src %}src="{{ page.image.path | default: page.image }}"{% endcapture %}
+      {% capture alt %}alt="{{ page.image.alt | default: page.title | xml_escape }}"{% endcapture %}
+      <div class="recipe-image mb-3">
+        <img {{ src }} class="preview-img" {{ alt }}>
+      </div>
+    {% endif %}
+
+    {% if page.servings or page.yield or page.prep_time or page.cook_time or page.total_time or page.source %}
+      <ul class="recipe-meta list-unstyled d-flex flex-wrap text-muted">
+        {% if page.servings %}
+          <li><i class="fas fa-utensils fa-fw"></i><strong>Serves</strong> {{ page.servings }}</li>
+        {% endif %}
+        {% if page.yield %}
+          <li><i class="fas fa-bowl-food fa-fw"></i><strong>Makes</strong> {{ page.yield }}</li>
+        {% endif %}
+        {% if page.prep_time %}
+          <li><i class="far fa-clock fa-fw"></i><strong>Prep</strong> {{ page.prep_time }}</li>
+        {% endif %}
+        {% if page.cook_time %}
+          <li><i class="fas fa-fire-burner fa-fw"></i><strong>Cook</strong> {{ page.cook_time }}</li>
+        {% endif %}
+        {% if page.total_time %}
+          <li><i class="fas fa-hourglass-half fa-fw"></i><strong>Total</strong> {{ page.total_time }}</li>
+        {% endif %}
+        {% if page.source %}
+          <li>
+            <i class="fas fa-book-open fa-fw"></i><strong>Source</strong>
+            {% if page.source_url -%}
+              <a href="{{ page.source_url }}">{{ page.source }}</a>
+            {%- else -%}
+              {{ page.source }}
+            {%- endif %}
+          </li>
+        {% endif %}
+      </ul>
+    {% endif %}
+  </header>
+
+  {% comment %}Kramdown fills blank table header cells with a non-breaking space; strip it so CSS can hide the empty header row.{% endcomment %}
+  <div class="content recipe-content">
+    {{ content | replace: '<th> </th>', '<th></th>' }}
+  </div>
+
+  {% if page.notes %}
+    <aside class="recipe-notes">
+      <h2 class="h5" data-toc-skip>Notes</h2>
+      {{ page.notes | markdownify }}
+    </aside>
+  {% endif %}
+
+  <div class="post-tail-wrapper text-muted">
+    {% if page.tags.size > 0 %}
+      <div class="post-tags">
+        <i class="fa fa-tags fa-fw me-1"></i>
+        {% for tag in page.tags %}
+          {%- if recipes_tab -%}
+            <a
+              href="{{ recipes_tab.url | relative_url }}#{{ tag | slugify }}"
+              class="post-tag no-text-decoration"
+            >
+              {{- tag -}}
+            </a>
+          {%- else -%}
+            <span class="post-tag">{{ tag }}</span>
+          {%- endif -%}
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    <p class="recipe-print-url d-none d-print-block small mt-3 mb-0">
+      {{ page.url | absolute_url }}
+    </p>
+  </div>
+</article>

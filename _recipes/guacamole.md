@@ -1,7 +1,7 @@
 ---
 title: Holy Moly Guacamole
 linkname: guacamole
-tags: [snack, jurek, vegan]
+tags: [snacks, vegan]
 ---
 
 Ingredients
@@ -22,6 +22,8 @@ Cooking Instructions
 
 * * *
 
-Halve the avocados and scoop out the flesh into a mixing bowl.  Squeeze in the lime juice and add the remaining ingredients.  Mash with a potato masher or a spoon until semi-smooth and let rest at room temperature for 10 to 20 minutes.
+1. Halve the avocados and scoop out the flesh into a mixing bowl.
+2. Squeeze in the lime juice and add the remaining ingredients.
+3. Mash with a potato masher or a spoon until semi-smooth and let rest at room temperature for 10 to 20 minutes.
 
 _makes 2 1/2 cups, 6-8 servings_

@@ -3,6 +3,7 @@ title: Salmon Cakes
 linkname: salmon_cakes
 tags: [seafood]
 ---
+
 Ingredients
 
 * * *

@@ -3,6 +3,7 @@ title: Bacon, Cheddar & Jalapeno Mac ’n Cheese
 linkname: jalapeno_mac
 tags: [comfort]
 ---
+
 Ingredients
 
 * * *
@@ -18,7 +19,6 @@ Ingredients
 | 2   | cups   | irish white cheddar (shredded) |
 | 2½  | cups   | sharp cheddar (shredded)       |
 | 1   | lbs    | pasta (cooked 2 mins less)     |
-
 
 Cooking Instructions
 
