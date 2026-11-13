@@ -3,7 +3,7 @@ title: Alsea River Info
 description: My collection of information about the Alsea River
 categories: [River, Alsea]
 tags: [fishing] 
-river: TID03  #USGS river code
+river: TIDO3  #USGS river code
 ---
 
 ![{{ page.river }}](https://www.nwrfc.noaa.gov/station/flowplot/hydroPlot.php?id={{ page.river }}&pe=HG){: width="750" height="570" }
