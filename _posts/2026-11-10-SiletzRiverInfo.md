@@ -6,7 +6,7 @@ tags: [fishing]
 river: SILO3  #USGS river code
 ---
 
-![{{ page.river }}](https://www.nwrfc.noaa.gov/station/flowplot/hydroPlot.php?id={{ page.river }}&pe=HG&v={{ 'now' | date: "%s" }}){: width="750" height="570" }
+![{{ page.river }}](https://www.nwrfc.noaa.gov/station/flowplot/hydroPlot.php?id={{ page.river }}&pe=HG){: .river-plot width="750" height="570" }
 _Siletz River - forcasted river level in Siletz_
 
 ## River Access
@@ -41,3 +41,5 @@ The Original Siletz River Shuttle Service
 : phone: 541-270-1187
 : cost: $25 - $30
 : Stop at [Larry's Old Place](https://www.google.com/maps/@44.7230277,-123.9189406,18z) in Siletz grab an envelope from the box and fill it out.  Then drop it through the slot in the door.  If you are starting after 11:00, you will need to call to confirm availability. 
+
+{% include river-plots.html %}

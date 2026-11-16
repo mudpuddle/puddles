@@ -1,0 +1,16 @@
+<script>
+  (() => {
+    const timestamp = Date.now().toString();
+
+    document.querySelectorAll('img.river-plot').forEach((image) => {
+      const url = new URL(image.src);
+      url.searchParams.set('v', timestamp);
+      image.src = url.href;
+
+      const popup = image.closest('a.popup');
+      if (popup) {
+        popup.href = url.href;
+      }
+    });
+  })();
+</script>
