@@ -31,6 +31,8 @@ Images can use the `cache-bust` class. Include
 `{% include cache-bust.html %}` after the last chart in each river post.
 This shared script adds a browser-generated `v` timestamp to the chart images
 and their popup links on every page load, rather than at site build time.
+It also marks those popup links as images so the lightbox displays charts whose
+URLs lack an image extension (e.g. `.php`) instead of loading a blocked iframe.
 Without JavaScript, the original chart URLs remain usable without cache busting.
 
 ## Contributing
