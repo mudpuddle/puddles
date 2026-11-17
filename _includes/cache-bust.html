@@ -2,7 +2,7 @@
   (() => {
     const timestamp = Date.now().toString();
 
-    document.querySelectorAll('img.river-plot').forEach((image) => {
+    document.querySelectorAll('img.cache-bust').forEach((image) => {
       const url = new URL(image.src);
       url.searchParams.set('v', timestamp);
       image.src = url.href;

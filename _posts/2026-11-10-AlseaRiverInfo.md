@@ -6,7 +6,7 @@ tags: [fishing]
 river: TIDO3  #USGS river code
 ---
 
-![{{ page.river }}](https://www.nwrfc.noaa.gov/station/flowplot/hydroPlot.php?id={{ page.river }}&pe=HG){: .river-plot width="750" height="570" }
+![{{ page.river }}](https://www.nwrfc.noaa.gov/station/flowplot/hydroPlot.php?id={{ page.river }}&pe=HG){: .cache-bust width="750" height="570" }
 _Alsea River - forcasted river level near Tidewater_
 
 ## River Access
@@ -21,4 +21,4 @@ Haven't floated it yet
 ## Shuttle Service
 TBD
 
-{% include river-plots.html %}
+{% include cache-bust.html %}

@@ -6,7 +6,7 @@ tags: [fishing]
 river: WTLO3  #USGS river code
 ---
 
-![{{ page.river }}](https://www.nwrfc.noaa.gov/station/flowplot/hydroPlot.php?id={{ page.river }}&pe=HG){: .river-plot width="750" height="570" }
+![{{ page.river }}](https://www.nwrfc.noaa.gov/station/flowplot/hydroPlot.php?id={{ page.river }}&pe=HG){: .cache-bust width="750" height="570" }
 _Santaim River - forecasted river level at Waterloo_
 
 ## River Access
@@ -16,4 +16,4 @@ _Santaim River - forecasted river level at Waterloo_
 ## Shuttle Service
 TBD
 
-{% include river-plots.html %}
+{% include cache-bust.html %}

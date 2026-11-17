@@ -7,7 +7,7 @@ river: VIDO3  #USGS river code
 river2: MKLO3
 ---
 
-![{{ page.river }}](https://www.nwrfc.noaa.gov/station/flowplot/hydroPlot.php?id={{ page.river }}&pe=HG){: .river-plot width="750" height="570" }
+![{{ page.river }}](https://www.nwrfc.noaa.gov/station/flowplot/hydroPlot.php?id={{ page.river }}&pe=HG){: .cache-bust width="750" height="570" }
 _McKenzie River - forcasted river level near Vida_
 
 ## River Access
@@ -21,7 +21,7 @@ Mckenzie River Shuttles
 : Leave keys in the lockbox, and coordinate with service over a phone call.
 
 ---
-![{{ page.river2 }}](https://www.nwrfc.noaa.gov/station/flowplot/hydroPlot.php?id={{ page.river2 }}&pe=HG){: .river-plot width="750" height="570" }
+![{{ page.river2 }}](https://www.nwrfc.noaa.gov/station/flowplot/hydroPlot.php?id={{ page.river2 }}&pe=HG){: .cache-bust width="750" height="570" }
 _McKenzie River - river level below Leaburg Dam_
 
-{% include river-plots.html %}
+{% include cache-bust.html %}

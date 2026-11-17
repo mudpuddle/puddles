@@ -25,10 +25,10 @@ This starter bundles those files from the latest **Chirpy** release along with a
 
 Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
 
-### River charts
+### River charts and images
 
-River chart images use the `river-plot` class. Include
-`{% include river-plots.html %}` after the last chart in each river post.
+Images can use the `cache-bust` class. Include
+`{% include cache-bust.html %}` after the last chart in each river post.
 This shared script adds a browser-generated `v` timestamp to the chart images
 and their popup links on every page load, rather than at site build time.
 Without JavaScript, the original chart URLs remain usable without cache busting.
